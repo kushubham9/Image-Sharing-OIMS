@@ -1,0 +1,15 @@
+1. Simply upload the database in the db folder in MYSQL server.
+	oims(import table).sql - Import when you are on a shared server, with no access to create database.
+		In this case, create a manual db and import table.
+	
+	Else
+		Upload oims(createdb).sql database.
+
+2. Include the database information in 
+	application/config/database.php
+
+3. Extract the file on your localhost server.
+	localhost/oims
+
+4. Open localhost/oims and enjoy free image sharing.
+
